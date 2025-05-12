@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aether Tech Service</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #007bff, #00c6ff);
+      padding: 2rem;
+      color: white;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background: #ffffff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .services, .about, .contact {
+      margin-top: 2rem;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .service-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background: #343a40;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Aether Tech Service</h1>
+    <p>Hospital Medical Equipment & Service Specialists</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Medical Equipment Supply</h3>
+        <p>We provide high-quality, reliable hospital medical equipment sourced from trusted manufacturers.</p>
+      </div>
+      <div class="service-card">
+        <h3>Installation & Setup</h3>
+        <p>Professional setup and calibration of critical medical devices to ensure optimal performance.</p>
+      </div>
+      <div class="service-card">
+        <h3>Maintenance & Repair</h3>
+        <p>Timely servicing and technical support for all types of hospital equipment.</p>
+      </div>
+      <div class="service-card">
+        <h3>Training & Support</h3>
+        <p>We train hospital staff on equipment usage and provide ongoing technical assistance.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Aether Tech Service is committed to enhancing healthcare delivery by offering top-tier medical technology solutions. With years of experience in the field, we serve hospitals and clinics with dedication, technical expertise, and innovation.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@aethertechservice.com">info@aethertechservice.com</a></p>
+    <p>Phone: +91-XXXX-XXXXXX</p>
+    <p>Location: India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Aether Tech Service. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
